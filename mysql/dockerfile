@@ -1,0 +1,7 @@
+FROM mysql:5.7
+MAINTAINER KUNLE OYEGBOLA <kunle@oyegbola.com>
+
+ENV MYSQL_ROOT_PASSWORD rootPassword 
+ENV MYSQL_DATABASE database 
+ENV MYSQL_USER user 
+ENV MYSQL_PASSWORD password 
